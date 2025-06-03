@@ -1,31 +1,30 @@
 # ATM
 
-Este projeto é uma simulação de um sistema de caixa eletrônico (ATM) em Java.
+This project is a simulation of an Automated Teller Machine (ATM) system in Java.
 
-## Funcionalidades
-- Gerenciamento de cartões
-- Saque e depósito de valores
-- Verificação de saldo
-- Controle de permissões e exceções personalizadas
+## Features
+- Card management
+- Withdraw and deposit operations
+- Balance checking
+- Permission control and custom exceptions
 
-## Estrutura do Projeto
-- `ATM.java`: Lógica principal do ATM
-- `Card.java`: Representação de um cartão bancário
-- `ATMException.java`: Exceção base para o sistema
-- `NotEnoughFundsException.java`: Exceção para fundos insuficientes
-- `NotEnoughPermissionsException.java`: Exceção para permissões insuficientes
-- `Main.java`: Classe principal para execução do programa
+## Project Structure
+- `ATM.java`: Main ATM logic
+- `Card.java`: Bank card representation
+- `ATMException.java`: Base exception for the system
+- `NotEnoughFundsException.java`: Exception for insufficient funds
+- `NotEnoughPermissionsException.java`: Exception for insufficient permissions
+- `Main.java`: Main class to run the program
 
-## Como Executar
-1. Compile todos os arquivos Java:
+## How to Run
+1. Compile all Java files:
    ```sh
    javac src/*.java
    ```
-2. Execute a classe principal:
+2. Run the main class:
    ```sh
    java -cp src Main
    ```
 
-## Requisitos
-- Java 8 ou superior
-
+## Requirements
+- Java 8 or higher
